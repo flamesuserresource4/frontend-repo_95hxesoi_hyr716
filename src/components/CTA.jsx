@@ -5,11 +5,11 @@ export default function CTA() {
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-white">
         <div className="grid md:grid-cols-3 gap-8 items-end">
           <div className="md:col-span-2">
-            <h2 className="text-3xl md:text-4xl font-semibold">Let’s shape your next space.</h2>
-            <p className="mt-3 text-zinc-300 max-w-2xl">We work with organisations to deliver environments that enable people and ideas to thrive.</p>
+            <h2 className="text-3xl md:text-4xl font-semibold">Samen je volgende ruimte vormgeven?</h2>
+            <p className="mt-3 text-zinc-300 max-w-2xl">Wij werken met organisaties aan omgevingen waar mensen en ideeën kunnen floreren.</p>
           </div>
           <div className="md:justify-self-end">
-            <a href="mailto:hello@oth.studio" className="inline-flex items-center justify-center px-6 py-3 rounded-md bg-white text-zinc-900 font-medium hover:bg-zinc-100 transition-colors">Start a conversation</a>
+            <a href="mailto:hello@oth.studio" className="inline-flex items-center justify-center px-6 py-3 rounded-md bg-white text-zinc-900 font-medium hover:bg-zinc-100 transition-colors">Start een gesprek</a>
           </div>
         </div>
       </div>

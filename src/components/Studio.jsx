@@ -3,14 +3,14 @@ export default function Studio() {
     <section id="studio" className="bg-white py-20 md:py-28">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-2 gap-10 items-center">
         <div>
-          <h2 className="text-2xl md:text-3xl font-semibold text-zinc-900">Approach</h2>
+          <h2 className="text-2xl md:text-3xl font-semibold text-zinc-900">Aanpak</h2>
           <p className="mt-4 text-zinc-700 leading-relaxed">
-            We believe architecture should be generous, adaptable and rooted in context. Our process blends strategy and craftsmanship, ensuring each project performs for its users and contributes positively to its environment.
+            Wij geloven dat architectuur genereus, adaptief en geworteld in context moet zijn. Onze werkwijze combineert strategie en vakmanschap, zodat elk project presteert voor zijn gebruikers en positief bijdraagt aan de omgeving.
           </p>
           <ul className="mt-6 space-y-3 text-zinc-700">
-            <li>— Circular design and low-carbon materials</li>
-            <li>— Workplace strategy and change management</li>
-            <li>— Integrated interiors and brand experience</li>
+            <li>— Circulair ontwerp en laagcarbon-materialen</li>
+            <li>— Workplace-strategie en verandermanagement</li>
+            <li>— Geïntegreerd interieur en merkbeleving</li>
           </ul>
         </div>
         <div className="grid grid-cols-2 gap-4">

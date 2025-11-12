@@ -1,20 +1,30 @@
-import Navbar from './components/Navbar'
+import { Routes, Route } from 'react-router-dom'
+import Layout from './components/Layout'
 import Hero from './components/Hero'
 import Projects from './components/Projects'
 import Studio from './components/Studio'
 import CTA from './components/CTA'
-import Footer from './components/Footer'
+import ProjectDetail from './components/ProjectDetail'
 
-function App() {
+function Home() {
   return (
-    <div className="bg-white">
-      <Navbar />
+    <>
       <Hero />
       <Projects />
       <Studio />
       <CTA />
-      <Footer />
-    </div>
+    </>
+  )
+}
+
+function App() {
+  return (
+    <Routes>
+      <Route element={<Layout />}>
+        <Route path="/" element={<Home />} />
+        <Route path="/project/:id" element={<ProjectDetail />} />
+      </Route>
+    </Routes>
   )
 }
 

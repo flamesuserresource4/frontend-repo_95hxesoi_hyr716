@@ -5,7 +5,7 @@ export default function Footer() {
         <div className="grid md:grid-cols-3 gap-8">
           <div>
             <h3 className="text-white font-semibold">OTH_</h3>
-            <p className="mt-2 text-sm">Architecture, interiors and urban design</p>
+            <p className="mt-2 text-sm">Architectuur, interieur en stedenbouw</p>
           </div>
           <div>
             <p className="text-sm">Amsterdam — Rotterdam</p>
@@ -16,10 +16,10 @@ export default function Footer() {
             <span className="mx-3">•</span>
             <a href="#" className="hover:text-white">Instagram</a>
             <span className="mx-3">•</span>
-            <a href="#" className="hover:text-white">News</a>
+            <a href="#" className="hover:text-white">Nieuws</a>
           </div>
         </div>
-        <div className="mt-8 text-xs text-zinc-500">© {new Date().getFullYear()} OTH_ • All rights reserved</div>
+        <div className="mt-8 text-xs text-zinc-500">© {new Date().getFullYear()} OTH_ • Alle rechten voorbehouden</div>
       </div>
     </footer>
   )
